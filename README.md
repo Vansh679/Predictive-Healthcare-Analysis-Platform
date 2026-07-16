@@ -4,7 +4,6 @@ An end-to-end machine learning platform and interactive clinical analytics dashb
 Stack: Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn (SMOTE), Streamlit, Power BI, DAX.
 
 Project Structure
-Plaintext
 diabetes-health-analytics/
 ├── data/
 │   ├── raw/                      # CDC BRFSS raw survey dataset
