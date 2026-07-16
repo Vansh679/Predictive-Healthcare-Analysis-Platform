@@ -4,21 +4,23 @@ An end-to-end machine learning platform and interactive clinical analytics dashb
 Stack: Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn (SMOTE), Streamlit, Power BI, DAX.
 
 Project Structure
+
 diabetes-health-analytics/
+
 ├── data/
-│   ├── raw/                      # CDC BRFSS raw survey dataset
-│   └── processed/                # Cleaned, encoded & transformed dataset
+│   ├── raw/                      
+│   └── processed/                
 ├── models/
-│   ├── train_model.py            # Preprocessing pipeline & model training
-│   ├── evaluate_model.py         # Confusion matrix, ROC-AUC & metrics calculation
-│   └── saved_models/             # Exported model artifacts (.joblib / .pkl)
+│   ├── train_model.py           
+│   ├── evaluate_model.py         
+│   └── saved_models/           
 ├── dashboard/
-│   ├── app.py                    # Streamlit real-time patient risk calculator
-│   └── components/               # Custom UI inputs, visual widgets & style logic
+│   ├── app.py                   
+│   └── components/            
 ├── powerbi/
-│   └── Population_Insights.pbix  # Multi-layer corporate Power BI report & DAX measures
-├── .env.example                  # Environment configurations
-├── requirements.txt              # Python dependencies
+│   └── Population_Insights.pbix  
+├── .env.example                 
+├── requirements.txt            
 └── README.md
 Running it Locally
 1. Prerequisites
